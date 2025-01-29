@@ -1,4 +1,5 @@
-import { BaseToken, LiteralTokenType, TokenType } from "./token-type";
+import type { BaseToken } from "./token-type";
+import { LiteralTokenType, TokenType } from "./token-type";
 
 export type LexerFields = {
 	[key: string]: any;
